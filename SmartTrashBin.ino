@@ -22,7 +22,7 @@ void setup()
 
 void loop() 
 {
-    /*    Generating pulse of 10 microsecond duration      */
+    /*    Generating pulse of 10 microsecond duration    */
   Serial.begin(9600);           
   digitalWrite(trig, LOW);
   delayMicroseconds(2);
